@@ -14,7 +14,7 @@ namespace CosmosEF
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseCosmos(
                     "https://stevesqlapi.documents.azure.com:443/",
-                    "ITRIaAzzXsSamTvbgZLbEhDkszJ406XAgIS82oXI0xsjLrkDf8VIpuef4X7HlI83wkFaBTcJTRJ6C1sWhUiMfA==",
+                    "ITRIaAzzXsSamTvbgZLbEhrkDf8VIpuef4X7HlI83wkFaBTcJTRJ6C1sWhUiMfA==",
                     databaseName: "Blog");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
