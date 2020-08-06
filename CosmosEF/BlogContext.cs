@@ -13,7 +13,7 @@ namespace CosmosEF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseCosmos(
-                    "https://stevesqlapi.documents.azure.com:443/",
+                    "https://stezure.com:443/",
                     "ITRIaAzzXsSamTvbgZLbEhrkDf8VIpuef4X7HlI83wkFaBTcJTRJ6C1sWhUiMfA==",
                     databaseName: "Blog");
 
