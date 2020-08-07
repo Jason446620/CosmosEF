@@ -13,8 +13,8 @@ namespace CosmosEF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseCosmos(
-                    "https://stezure.com:443/",
-                    "ITRIaAzzXsSamTvbgZLbEhrkDf8VIpuef4X7HlI83wkFaBTcJTRJ6C1sWhUiMfA==",
+                    "https://s*****.com:443/",
+                    "ITRIaAzzXsSamT****************MfA==",
                     databaseName: "Blog");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
